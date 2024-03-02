@@ -5,8 +5,8 @@ import {
   Route,
 } from 'react-router-dom';
 import { useAppSelector, useAppDispatch } from './redux/hooks';
-import { fetchGreeting } from './redux/slices/greetingSlice.js';
-import Greetings from './component/Greetings.js';
+import { fetchGreeting } from './redux/slices/greetingSlice';
+import Greetings from './component/Greetings';
 
 const App = () => {
   const dispatch = useAppDispatch();
