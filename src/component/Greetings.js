@@ -18,12 +18,6 @@ const Greetings = ({
     {!loading && !error && <h1>{greeting}</h1>}
   </div>
 );
-
-Greetings.propTypes = {
-  greeting: PropTypes.string.isRequired,
-  loading: PropTypes.bool.isRequired,
-  error: PropTypes.bool.isRequired,
-  onRefresh: PropTypes.func.isRequired,
 };
 
 export default Greetings;
