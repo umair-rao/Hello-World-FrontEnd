@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import { useAppSelector, useAppDispatch } from './redux/hooks';
 import { fetchGreeting } from './redux/slices/greetingSlice';
-import Greetings from './component/Greetings';
+import Greetings from './components/Greetings';
 
 const App = () => {
   const dispatch = useAppDispatch();
