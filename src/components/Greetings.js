@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line
 import PropTypes from 'prop-types';
 
 const Greetings = ({
